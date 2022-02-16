@@ -1,0 +1,11 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "access-control-allow-origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=60, immutable, stale-while-revalidate" }
+      ]
+    }
+  ]
+}
